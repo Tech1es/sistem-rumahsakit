@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.create-page {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.pagination .page-link {
+  font-size: 14px; /* Ukuran font */
+  padding: 0.4rem 0.6rem; /* Padding untuk memberikan ruang di sekitar teks tombol */
+  color: #007bff; /* Warna teks tombol */
+  background-color: #fff; /* Warna latar belakang tombol */
+  border: 1px solid #dee2e6; /* Border tombol */
+}
+
+/* Mengatur gaya untuk tombol saat hover */
+.pagination .page-link:hover {
+  z-index: 2; /* Menempatkan tombol di atas elemen lain saat hover */
+  color: #0056b3; /* Warna teks tombol saat hover */
+  text-decoration: none; /* Menghapus garis bawah saat hover */
+  background-color: #e9ecef; /* Warna latar belakang tombol saat hover */
+  border-color: #dee2e6; /* Warna border tombol saat hover */
+}
+
+/* Mengatur gaya untuk tombol saat aktif */
+.pagination .page-item.active .page-link {
+  z-index: 3; /* Menempatkan tombol aktif di atas elemen lain */
+  color: #fff; /* Warna teks tombol aktif */
+  background-color: #007bff; /* Warna latar belakang tombol aktif */
+  border-color: #007bff; /* Warna border tombol aktif */
+}
